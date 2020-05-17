@@ -2,7 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_25"/>
-	<classpathentry kind="lib" path="libs/Access_JDBC30.jar"/>
-	<classpathentry kind="lib" path="libs/hibernate.jar"/>
+	<classpathentry kind="lib" path="D:/zhuanyekeku/j2ee/j2ee/hibernate/lib/hibernate3.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/myeclipse_ws/Access_JDBC30.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
