@@ -5,13 +5,15 @@ import db.*;
 import entities.UserInfo;
 
 public class UserDao {
-
+	private String TAG = "dao.UserDao";
 	Connection con = null;
 	PreparedStatement pst = null;
 
 	public int checkLogin(String uName, String pWord) {
 		int uid = 0;
-		String sql = "SELECT * FROM account WHERE username=? AND password=?";
+		String sql = "SELECT * FROM account WHERE [username]=? AND [password]=?";
+		System.out.println(TAG + ",checkLogin uName:" + uName + ",pWord:" + pWord);
+		System.out.println(TAG + ",checkLogin sql:" + sql);
 		try {
 			con = new DBConnection().getConnection();
 			pst = con.prepareStatement(sql);
