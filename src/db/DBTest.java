@@ -16,8 +16,8 @@ public class DBTest extends JFrame implements ActionListener{
 	
 	public DBTest(){
 		
-		//test1 = new CircleButton("res/pic/test.png");
-		test1 = new JButton(test2);
+//		test1 = new JButton("res/pic/test.png");
+		test1 = new JButton("test success");
 		
 		this.setLayout(null);
 		
